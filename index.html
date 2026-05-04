@@ -457,5 +457,65 @@
           </form>
       </div>
     </footer>
+
+    <div class="modal-overlay">
+      <div class="modal">
+        <div class="radius">
+
+        <svg class="icon-mark">
+          <use href="./images/icons.svg#icon-mark"></use>
+        </svg>
+        </div>
+        <h3 class="modal-form-title">Leave your contacts and we will call you back</h3>
+
+        <form class="modal-form">
+
+          <label class="form-field">
+            <span>Name</span>
+            <div class="input-wrapper">
+              <input type="text" name="username" class="input-form-modal">
+              <svg class="modal-icon">
+                <use href="./images/icons.svg#icon-human"></use>
+              </svg>
+            </div>
+          </label>
+
+          <label class="form-field">
+            <span>Phone</span>
+            <div class="input-wrapper">
+              <input type="tel" name="tel" class="input-form-modal">
+              <svg class="modal-icon">
+              <use href="./images/icons.svg#icon-mobile"></use>
+            </svg>
+            
+            </div>
+          </label>
+
+          <label class="form-field">
+            <span>Email</span>
+            <div class="input-wrapper">
+              <input type="email" name="email" class="input-form-modal">
+              <svg class="modal-icon">
+                <use href="./images/icons.svg#icon-post"></use>
+              </svg>
+            </div>
+          </label>
+
+          <label class="form-field">
+            <span>Comment</span>
+            <textarea name="comment" placeholder="Text input" class="textarea-field"></textarea>
+          </label>
+              
+          <div class="policy-checkbox">
+                    <input type="checkbox" name="accept-conditions" value="agree" id="policy" class="input-policy">
+          <label class="policy-accepting-text" for="policy">I accept the terms and conditions of the <span class="policy-accent">Privacy Policy</span></label>
+          </div>
+
+          <label>
+            <button type="submit" class="modal-btn">Send</button>
+          </label>
+        </form>
+      </div>
+    </div>
   </body>
 </html>
