@@ -594,8 +594,8 @@ img {
 }
 
 .modal-overlay .is-open {
-opacity: 1;
-pointer-events: auto;
+  opacity: 1;
+  pointer-events: auto;
 }
 
 .modal {
@@ -614,7 +614,6 @@ pointer-events: auto;
 .icon-mark {
   width: 8px;
   height: 8px;
-  
 }
 
 .radius {
@@ -631,12 +630,12 @@ pointer-events: auto;
 
 .radius:hover,
 .radius:active {
-    border: 1px solid rgba(64, 75, 191, 1);
-    background-color:rgba(64, 75, 191, 1);
+  border: 1px solid rgba(64, 75, 191, 1);
+  background-color: rgba(64, 75, 191, 1);
 }
 
 .radius:hover .icon-mark {
-    fill: white;
+  fill: white;
 }
 
 .modal-form-title {
@@ -652,124 +651,115 @@ pointer-events: auto;
 .form-field {
   display: flex;
   flex-direction: column;
-  
-  font-family: "Roboto",sans-serif;
-font-weight: 400;
-font-style: Regular;
-font-size: 12px;
-leading-trim:none;
-line-height: 14px;
-letter-spacing: 4%;
-color: rgba(142, 143, 153, 1);
-padding-bottom: 8px;
 
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-style: Regular;
+  font-size: 12px;
+  leading-trim: none;
+  line-height: 14px;
+  letter-spacing: 4%;
+  color: rgba(142, 143, 153, 1);
+  padding-bottom: 8px;
 }
 
 .input-form-modal {
-border: 1px solid rgba(46, 47, 66, 0.4);
-border-radius: 4px;
-min-width: 360px;
-min-height: 40px;
-transition: border 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  border: 1px solid rgba(46, 47, 66, 0.4);
+  border-radius: 4px;
+  min-width: 360px;
+  min-height: 40px;
+  transition: border 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .input-form-modal:focus,
 .input-form-modal:hover {
-border: 1px solid rgba(77, 90, 229, 1);
+  border: 1px solid rgba(77, 90, 229, 1);
 }
 
-
 .modal-form-title {
-    padding-top: 24px;
-    padding-bottom: 16px;
-    font-family: Roboto;
-font-weight: 500;
-font-style: Medium;
-font-size: 16px;
-leading-trim: NONE;
-line-height: 24px;
-letter-spacing: 2%;
-text-align: center;
-color: rgba(46, 47, 66, 1);
-
-
+  padding-top: 24px;
+  padding-bottom: 16px;
+  font-family: Roboto;
+  font-weight: 500;
+  font-style: Medium;
+  font-size: 16px;
+  leading-trim: NONE;
+  line-height: 24px;
+  letter-spacing: 2%;
+  text-align: center;
+  color: rgba(46, 47, 66, 1);
 }
 
 .form-field textarea {
-    border-radius: 4px;
+  border-radius: 4px;
 }
 
 .policy-accepting-text {
-    font-family: "Roboto" ,sans-serif;
-font-weight: 400;
-font-style: Regular;
-font-size: 12px;
-leading-trim: none;
-line-height: 14px;
-letter-spacing: 4%;
-color: rgba(142, 143, 153, 1);
-
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-style: Regular;
+  font-size: 12px;
+  leading-trim: none;
+  line-height: 14px;
+  letter-spacing: 4%;
+  color: rgba(142, 143, 153, 1);
 }
 
 .policy-accent {
-    color: rgba(77, 90, 229, 1);
-    text-decoration: underline;
+  color: rgba(77, 90, 229, 1);
+  text-decoration: underline;
 }
 
 .textarea-field {
-    width: 100%;
-    height: 120px;
-    border: 1px solid rgba(46, 47, 66, 0.4)
-
+  width: 100%;
+  height: 120px;
+  border: 1px solid rgba(46, 47, 66, 0.4);
 }
 .textarea-field::placeholder {
-    padding: 8px 16px;
+  padding: 8px 16px;
 }
 
 .modal-icon {
-    position: absolute;
-    width: 18px;
-    height: 24px;
-    left: 16px;
-    transform: translateY(-50%);
-    transform: translateY(-50%);
-    top: 50%; 
-    transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  position: absolute;
+  width: 18px;
+  height: 24px;
+  left: 16px;
+  transform: translateY(-50%);
+  transform: translateY(-50%);
+  top: 50%;
+  transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-
-
 .input-form-modal:focus + .modal-icon {
-  fill: #4D5AE5;
+  fill: #4d5ae5;
 }
 
 .input-wrapper {
-position: relative;
+  position: relative;
 }
 
 .form-field span {
-    margin-bottom: 4px;
+  margin-bottom: 4px;
 }
 
 .modal-btn {
-    display: block;
-    width: 169px;
-height: 56px;
-border-radius: 4px;
-border: none;
-margin: 24px auto;
-background-color: rgba(77, 90, 229, 1);
-color: white;
-box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
- transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  display: block;
+  width: 169px;
+  height: 56px;
+  border-radius: 4px;
+  border: none;
+  margin: 24px auto;
+  background-color: rgba(77, 90, 229, 1);
+  color: white;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .modal-btn:hover,
 .modal-btn:focus {
-background-color: rgba(64, 75, 191, 1);
+  background-color: rgba(64, 75, 191, 1);
 }
 
 .input-policy:checked + .policy-accepting-text {
-    color: rgba(64, 75, 191, 1);
+  color: rgba(64, 75, 191, 1);
 }
-
