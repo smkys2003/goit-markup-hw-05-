@@ -574,6 +574,7 @@ img {
 .form-footer {
   display: flex;
 }
+
 .modal-overlay {
   background-color: rgba(46, 47, 66, 0.4);
   position: fixed;
@@ -588,6 +589,13 @@ img {
   font-weight: 500;
   font-style: Medium;
   line-height: 24px;
+  opacity: 0;
+  pointer-events: none;
+}
+
+.modal-overlay .is-open {
+opacity: 1;
+pointer-events: auto;
 }
 
 .modal {
@@ -764,3 +772,4 @@ background-color: rgba(64, 75, 191, 1);
 .input-policy:checked + .policy-accepting-text {
     color: rgba(64, 75, 191, 1);
 }
+
