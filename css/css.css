@@ -721,7 +721,7 @@ img {
   font-size: 12px;
   line-height: 14px;
   letter-spacing: 4%;
-  color: rgba(142, 143, 153, 1);
+  color: #8e8f99;;
   line-height: 1.17;
   letter-spacing: 0.04em;
 }
@@ -733,8 +733,7 @@ img {
   display: inline-flex;
   border: 1px solid rgba(46, 47, 66, 0.4);
   border-radius: 2px;
-  transition:
-    background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+  transition:background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
     border 250ms cubic-bezier(0.4, 0, 0.2, 1),
     fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
   align-items: center;
@@ -742,10 +741,6 @@ img {
   fill: transparent;
 }
 
-input[type="checkbox"]:checked + .span-class {
-  background-color: #404bbf;
-  fill: #f4f4fd;
-}
 
 .policy-accent {
   color: rgba(77, 90, 229, 1);
@@ -766,6 +761,7 @@ input[type="checkbox"]:checked + .span-class {
   outline: transparent;
   resize: none;
   transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
 }
 
 .textarea-field:focus {
@@ -786,6 +782,7 @@ input[type="checkbox"]:checked + .span-class {
 
 .input-wrapper {
   position: relative;
+
 }
 
 .modal-btn {
@@ -863,6 +860,7 @@ input[type="checkbox"]:checked + .span-class {
 
 .comment-modal-field {
   margin-bottom: 16px;
+
 }
 
 .policy-checkbox {
@@ -879,4 +877,9 @@ input[type="checkbox"]:checked + .span-class {
 
 .visually-hidden:checked + .policy-accepting-text .icon-agree {
   fill: rgba(244, 244, 253, 1);
+}
+
+.field {
+margin-bottom: 8px;
+
 }
