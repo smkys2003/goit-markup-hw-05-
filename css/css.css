@@ -536,7 +536,7 @@ img {
 
 .button-footer-icon {
  margin-left: 16px;
- 
+
 }
 
 .form-footer {
@@ -589,9 +589,26 @@ border: 1px solid white;
 }
 
 .form-footer {
-  display: flex;
+    display: flex;
+    align-items: flex-end;
+    padding-left: 0;
 }
 
+.container-footer-form {
+   display: flex;
+   flex-direction: column;
+   margin-left: 83px;
+}
+
+.titel-footer-form {
+    margin:0;
+     margin-bottom: 16px;
+      font-weight: 500;
+      font-size: 16px;
+       line-height: 1.5;
+        letter-spacing: 0.02em;
+        color: #ffffff;
+}
 .modal-overlay {
   background-color: rgba(46, 47, 66, 0.4);
   position: fixed;
