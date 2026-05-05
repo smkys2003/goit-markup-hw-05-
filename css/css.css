@@ -873,13 +873,11 @@ img {
 
 .visually-hidden:checked + .policy-accepting-text .checkbox-icon {
   background-color: #404bbf;
+  border: none;
+  fill: #F4F4FD;
 }
 
-.visually-hidden:checked + .policy-accepting-text .icon-agree {
-  fill: rgba(244, 244, 253, 1);
-}
 
 .field {
 margin-bottom: 8px;
-
 }
